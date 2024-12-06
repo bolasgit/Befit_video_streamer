@@ -38,6 +38,7 @@ h6 {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #fff
 }
 
 .navbar-nav {
@@ -66,6 +67,17 @@ h6 {
     border-radius: 0.5rem;
     margin-top: 2rem;
 }
+
+
+.container-img {
+    display: block;
+    /* Make the image a block element */
+    max-width: 100%;
+    /* Make sure the image doesn't overflow the container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
 
 /* Buttons */
 .btn {

@@ -1,8 +1,18 @@
 <!-- templates/watch.html -->
 {% extends "base.html" %} {% block content %}
 <h2 class="mb-4">{{ title }}</h2>
-<img src="/videos/{{ video_name }}" alt="{{ video_name }}" />
-<div class="mt-3">
-  <a href="/" class="btn btn-secondary">Back to Home</a>
+
+<div class="container">
+  <div class="card">
+    <img
+      src="/videos/{{ video_name }}"
+      class="card-img-top"
+      alt="{{ video_name }}"
+    />
+    <div class="card-body">
+      <a href="/" class="btn btn-secondary">Back To Home</a>
+    </div>
+  </div>
+  </div>
+  {% endblock %}
 </div>
-{% endblock %}
